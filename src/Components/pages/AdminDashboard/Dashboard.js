@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import axios from "axios";
-import { useHistory, Redirect } from "react-router-dom";
+import { useHistory, Redirect,Link } from "react-router-dom";
 import "./dashboard.css";
 function Dashboard() {
   let history = useHistory();
@@ -94,6 +94,9 @@ function Dashboard() {
             Logout
           </button>
         </div>
+        <Link to="/admin/table">
+        <p>Go to Table</p>
+      </Link>
         <div className="wrapper">
           <div className="section1">
             <h5 className="card_header"> Create User</h5>

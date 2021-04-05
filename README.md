@@ -14,12 +14,17 @@ and insid db.json make an array of object
 }
 and than we will run json-server --watch db.json --port 3004
 our database server will be started on http://localhost:3004/users
+and  the login credentail for super user is  let admin_cred = {
+    email: "admin@admin.com",
+    password: 1234,
+  }; 
 and we will use this json server for data manegement of this application 
 and for frontend just clone the repo and do npm i and than npm start 
 and the / route is for superadmin  and /admin/dashboard is where admin can create 
 users and after succcesfull creation of user it will redirect to admin/table
 where all the users are listed and the pagination is also implemented with page size of 10 
+superuser can edit the exting user and superuser can delete the users too
 and you can't aceess the /admin/dashboard  and /admin/table without logged in as superuser
 
-
+and the login credentail for user are the email id created by super user
 for a particular user the login page is at /user and if the email exist in db.json than it is redirected to the user/view where there is list of players and the pageSize of the pagination is 50 you can't access the /user/view directly without login as a user 
