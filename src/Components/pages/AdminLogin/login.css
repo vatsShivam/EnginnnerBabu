@@ -1,0 +1,119 @@
+.wrapper {
+    width: 100%;
+  
+    height: auto;
+    min-height: 100vh;
+  
+    background-color: #e6e6fa;
+  
+    display: flex;
+    justify-content: center;
+  }
+  .section1 {
+    height: auto;
+    min-height: 600px;
+    align-self: center;
+    width: 700px;
+  
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .card_header {
+    color: #08090a;
+    font-size: 31px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  #google_button {
+    background-color: black;
+    color: white;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+  #facebook_button {
+    background-color: #1da1f2;
+    color: white;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid #1da1f2;
+    margin-top: 10px;
+  }
+  .btn {
+    width: 50px;
+    background-color: #ffc312;
+    border: 0 !important;
+  }
+  
+  @media (max-width: 800px) {
+    .section1 {
+      height: auto;
+      min-height: 400px;
+      width: 400px;
+    }
+  }
+  .bris {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    z-index: 4;
+    box-shadow: 0px 5px 50px 0px rgb(108, 68, 252),
+      0px 0px 0px 7px rgba(107, 74, 255, 0.5);
+  }
+  .shiv {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 80%;
+  }
+  
+  .names {
+    font-weight: bold;
+    font-size: 24px;
+    color: #6944ff;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .cate {
+    font-size: 18px;
+    font-weight: bold;
+    color: #324e63;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .add {
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .btn1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  #btn2 {
+    color: white;
+    background-color: #3b49df;
+  
+    border: 5px solid #3b49df;
+    margin-bottom: 40px;
+  }
+  .adds {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+    text-align: center;
+  }
